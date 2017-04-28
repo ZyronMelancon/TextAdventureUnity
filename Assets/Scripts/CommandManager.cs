@@ -95,6 +95,7 @@ public class CommandManager : MonoBehaviour {
             m_InputField.text = "";
             getCommand(theCommand);
             m_InputField.Select();
+            m_InputField.ActivateInputField();
         }
 	}
 }
